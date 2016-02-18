@@ -1,0 +1,32 @@
+*{
+	margin:5px;
+	padding: 0px;
+}
+.caja {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	background: gray; 
+}
+.caja-padre {
+	border: 1px solid black;
+	height: 120px;
+	width: 350px;
+	background: gray;
+}
+.caja-hijo {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	background: gray;
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+.caja-salto {
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	background: gray;
+	display: inline-block;
+}
